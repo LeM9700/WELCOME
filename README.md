@@ -1,70 +1,59 @@
-# 👋 Bonjour, je suis **[Ton Prénom]** !
+<h1 align="center">👋 Bienvenue sur mon GitHub !</h1>
 
-Développeur **React**, **Flutter** et passionné par la création d'applications web et mobiles modernes.  
-Je crée des projets innovants et des interfaces élégantes pour résoudre des problèmes réels.  
-Explorez mon profil pour découvrir mes projets et éléments frontend !
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Développeur+Frontend+React/Flutter;Passionné+par+le+design+et+l’UX;Partager+des+éléments+UI+réutilisables;Toujours+en+apprentissage...&center=true&width=600" alt="Typing SVG" />
+</p>
 
 ---
 
-### 🚀 **Projets récents :**
+<style>
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 250px; margin: 10px; border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: #f9f9f9;">
-    <h3>💻 [Ô'Stud](https://github.com/...)</h3>
-    <p>Plateforme de gestion de studios artistiques avec réservation en ligne et paiement intégré.</p>
-    <a href="https://ostud.vercel.app/" target="_blank">
-      <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-        Voir la démo
-      </button>
-    </a>
+  .card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+</style>
+
+<div class="card-container">
+  <div class="card">
+    <h3>🔘 Boutons</h3>
+    <p>Collection de boutons animés, hover, accessibles.</p>
   </div>
-  <div style="flex: 1; min-width: 250px; margin: 10px; border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: #f9f9f9;">
-    <h3>📱 [VTCElite](https://github.com/LeM9700/VTCEliteProjet)</h3>
-    <p>Chatbot pour la réservation VTC avec des fonctionnalités d'auto-apprentissage et d'optimisation.</p>
-    <a href="https://vtcelite.com/" target="_blank">
-      <button style="background-color: #008CBA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-        Voir la démo
-      </button>
-    </a>
+  <div class="card">
+    <h3>🧩 Composants UI</h3>
+    <p>Cards, inputs, formulaires modernes & responsives.</p>
+  </div>
+  <div class="card">
+    <h3>🔐 Pages login</h3>
+    <p>Écrans de connexion simples ou stylisés, intégrables.</p>
+  </div>
+  <div class="card">
+    <h3>🌐 Portfolio</h3>
+    <p>Mon portfolio React avec chatbot intelligent & prise de RDV.</p>
   </div>
 </div>
 
 ---
 
-### 📚 **Mes compétences :**
-- **React / React Native**  
-  Crée des applications interactives et dynamiques avec React, et des applications mobiles avec React Native.
-- **Flutter**  
-  Développement d'applications mobiles performantes et élégantes avec Flutter.
-- **Firebase**  
-  Authentification, base de données en temps réel, et stockage dans le cloud.
-- **Cybersécurité**  
-  Apprentissage en continu des techniques de hacking éthique et de pentesting.
+### 🛠️ Technologies
 
----
-
-### 🎨 **Mon portfolio** :  
-Accédez à mon [portfolio interactif](https://tonportfolio.com) pour explorer mes projets plus en détail.
-
----
-
-### 🔥 **Éléments Frontend disponibles :**
-
-Voici quelques éléments frontend que vous pouvez utiliser et adapter à vos projets !
-
-#### 1. **Card responsive** :
 ```html
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 20px; max-width: 300px;">
-  <h4>Card Title</h4>
-  <p>Une description simple mais efficace d'un élément. Lorem ipsum dolor sit amet.</p>
-  <button style="background-color: #008CBA; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
-    Voir plus
-  </button>
-</div>
-
-🌍 Me contacter :
-📧 ton@email.com
-
-🌐 Mon LinkedIn
-
-📅 Réserver un RDV
+HTML • CSS • JavaScript • TailwindCSS • React • Flutter • Firebase • Git • GitHub
