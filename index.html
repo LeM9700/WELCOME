@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeM9700 | Développeur Frontend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e293b;
+      --accent: #38bdf8;
+      --light: #f8fafc;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Fira Code', monospace;
+      background: linear-gradient(135deg, var(--primary), #0f172a);
+      color: var(--light);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .typing {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid var(--accent);
+      width: 24ch;
+      animation: typing 4s steps(24), blink .75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 24ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .section {
+      max-width: 800px;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #334155;
+      border-radius: 12px;
+      padding: 1rem;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #475569;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Salut, moi c'est LeM9700</h1>
+  <div class="typing">Développeur React / Flutter / Firebase</div>
+
+  <section class="section">
+    <h2>🌟 Projets à découvrir</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Ô'Stud</h3>
+        <p>Plateforme de gestion et réservation de studios artistiques.</p>
+      </div>
+      <div class="card">
+        <h3>VTCElite</h3>
+        <p>Chatbot de réservation VTC avec EmailJS et Firebase.</p>
+      </div>
+      <div class="card">
+        <h3>UI Elements</h3>
+        <p>Composants frontend réutilisables (buttons, inputs...)</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio</h3>
+        <p>Site personnel avec animations et système de contact intégré.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📬 Contact</h2>
+    <p>
+      <a href="mailto:ton@email.com">ton@email.com</a> |
+      <a href="https://calendly.com/">Calendly</a> |
+      <a href="https://tonportfolio.com">Portfolio</a>
+    </p>
+  </section>
+</body>
+</html>
